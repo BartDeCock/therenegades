@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+#header{
+	width: 100%;
+	background-color: #0F0F0F;
+	text-align: center;
+	font-size: 5vw;
+	font-family:"Arial", cursive, sans-serif;
+	color: rgba(187, 35, 35, 0.88);
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+.row-centered{
+	text-align: center;
+}
+
+.col-centered {
+	display:inline-block;
+	float:none;
+	/* reset the text-align */
+	text-align:left;
+	/* inline-block space fix */
+	margin-right:-4px;
+}
+
+a:active{
+	background-color: #330EB9;
+}
+
+.contact{
+	font-size: 20px;
+}
+
+.muzikant{
+	font-size: 20px;
+}
+
+.concertbox{
+	background-color: gray;
+	padding: 5px;
+}
+
+.instrument{
+	font-size: 25px;
+	background-color: gray;
+	padding: 5px;
+	text-align: center;
+}
+.image{
+	min-width: 150px;
+	min-height: 150px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+    img {
+        width: 150px;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    img {
+        width: 200px;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    img {
+        width: 250px;
+    }
+}

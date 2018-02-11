@@ -1,0 +1,19 @@
+<!-- <h2>Contacteer ons</h2> -->
+<div class="jumbotron text-center">
+    <div class="container">
+        <div ng-repeat="c in contacts">
+            <div class="row row-centered">
+                <div class="col-sm-12 col-md-6 col-lg-2 contact col-centered">
+                        {{ c.title + ': ' }}    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2 contact col-centered">
+                        {{ c.name + ': ' }}    
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2 contact col-centered">
+                    <a id="mail_contact" href="mailto:" + {{ c.email }}>{{ c.email }}</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

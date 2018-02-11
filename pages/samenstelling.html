@@ -1,0 +1,19 @@
+<div class="jumbotron text-center">
+    <div class="container">
+        <div ng-repeat="i in instrumenten">
+            <div class="row row-centered">
+                <div class="col-sm-12 col-md-6 col-lg-3 instrument col-centered">
+                        {{ i.soort }}    
+                </div>
+            </div>
+            <div class="row row-centered">
+                <div class="col-sm-12 col-md-6 col-lg-2 muzikant col-centered">
+                    <div ng-repeat="m in i.muzikanten">
+                        {{ m.naam }}    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

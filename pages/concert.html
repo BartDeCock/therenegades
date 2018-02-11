@@ -1,0 +1,15 @@
+<div class="jumbotron text-center">
+    <div class="container">
+        <div ng-repeat="c in concerts">
+            <div class="row row-centered">
+                <div class="col-sm-8 col-md-5 col-lg-6 concertbox col-centered">
+                    <p>{{ c.date }}</p>
+                    <p>{{ c.location }}</p>
+                    <p><a href="{{ c.poster }}" target="_blank">
+                        Bekijk hier de affiche
+                    </a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
