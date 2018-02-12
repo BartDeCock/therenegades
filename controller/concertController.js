@@ -1,7 +1,7 @@
 app.controller('ConcertController', function($scope) {
         $scope.concerts = [
-            {date:'21 oktober 2017',location:'CC Belgica, Dendermonde',poster:'posters/affiche-21-10-2017.jpg'},
-            {date:'15 december 2017',location:'ergens ginder achter',poster:'posters/flyer_16-4-2016.jpg'}
+            {date:'18 februari 2018',location:'Lokerse Jazzclub',poster:''},
+            {date:'17 maart 2018',location:'Schouwburg CC Ter Dilft, Bornem',poster:'posters/affiche-17-03-2018.png'}
         ];
     });
     

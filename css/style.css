@@ -41,8 +41,18 @@ a:active{
 }
 
 .concertbox{
-	background-color: gray;
+	/* border: 5px solid red; */
+	/* background-color: #744848; */
+	font-size: 25px;
 	padding: 5px;
+	/* color: white; */
+	text-align: left;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+.posterbox{
+	text-align: right;
 }
 
 .instrument{
@@ -54,6 +64,14 @@ a:active{
 .image{
 	min-width: 150px;
 	min-height: 150px;
+}
+
+.poster{
+	max-width: 100px;
+}
+
+.video{
+	padding: 10px;
 }
 
 img {

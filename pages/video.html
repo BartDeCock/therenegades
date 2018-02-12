@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+    <div class="container">
+        <div ng-repeat="video in videos">
+            <div class="row row-centered video">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" ng-src="{{ video | trusted }}" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -23,5 +23,15 @@ function config($routeProvider) {
         .when('/gallerij', {
             templateUrl: 'pages/gallerij.html',
             controller: 'GalleryController'
+        })
+        .when('/video', {
+            templateUrl: 'pages/video.html',
+            controller: 'VideoController'
         });
 }
+
+app.filter('trusted', ['$sce', function ($sce) {
+    return function(url) {
+        return $sce.trustAsResourceUrl(url);
+    };
+}]);
